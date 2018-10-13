@@ -11,3 +11,12 @@ After that I created the spell Intent where the user would ask Alexa to spell a 
 
 After that, I created the ask spelling Intent where Alexa would ask the user to spell a certain word, if correct Alexa will respond with a praise or else Alexa will ask the user to try again. If the user cannot spell the word, Alexa will respond with the correct pronunciation.   
 Currently, the words list is static, in future I want to dynamically build the list and also shape the skill according to each user rather than in general.
+
+
+So, to test the skill :
+
+      1. Word of the day: Just launch the skill "Alexa, open english flair" or say  "Alexa, open english flair and tell me a new word"
+
+      2. For getting a spelling say "Alexa, open english flair and spell {insert any word here}"
+      
+       3. For spell test, say : "Alexa, open english flair and spell me a new word" here Alexa will ask you spelling of a word , in return you have to say : "is it {spelling of the word}"  spell the word letter by letter. If you can't then say "don't know" and Alexa will return the correct spelling of the word.  
