@@ -1,0 +1,88 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "english flair",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is a new word",
+                        "tell me new words",
+                        "get a new word",
+                        "get me a new word",
+                        "tell me a new word",
+                        "what is the word of the day",
+                        "get word of the day"
+                    ]
+                },
+                {
+                    "name": "askSpellingIntent",
+                    "slots": [],
+                    "samples": [
+                        "quiz me a spelling",
+                        "spell me a word",
+                        "ask me new spelling",
+                        "ask me a spelling"
+                    ]
+                },
+                {
+                    "name": "spellCheck",
+                    "slots": [
+                        {
+                            "name": "spelling",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "is it {spelling}"
+                    ]
+                },
+                {
+                    "name": "dontKnowIntent",
+                    "slots": [],
+                    "samples": [
+                        "that I don't know",
+                        "don't know",
+                        "sorry don't know that",
+                        "idk",
+                        "i don't know",
+                        "i don't know that one"
+                    ]
+                },
+                {
+                    "name": "spellTheWordIntent",
+                    "slots": [
+                        {
+                            "name": "wordslot",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "spell {wordslot}",
+                        "spell the word {wordslot}",
+                        "please spell {wordslot}",
+                        "can you spell the word {wordslot}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
