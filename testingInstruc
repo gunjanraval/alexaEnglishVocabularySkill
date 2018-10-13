@@ -1,0 +1,9 @@
+The video shows the invocation name as English Skill, I had to change it to English flair.
+
+So, to test the :
+
+      1. Word of the day: Just launch the skill "Alexa, open english flair" or say  "Alexa, open english flair and tell me a new word"
+
+      2. For getting a spelling say "Alexa, open english flair and spell {insert any word here}"
+      
+      3. For spell test, say : "Alexa, open english flair and spell me a new word" here Alexa will ask you spelling of a word , in return you have to say : "is it {spelling of the word}"  spell the word letter by letter. If you can't then say "don't know" and Alexa will return the correct spelling of the word.  
